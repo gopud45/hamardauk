@@ -4,51 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.hamardaukbridge.com</title>
+    <title>Hamar Dauk Bridge – Tourist Spot in Chopra, West Bengal</title>
+    <meta name="description" content="Visit Hamar Dauk Bridge in Chopra, West Bengal. A peaceful scenic barrage and perfect picnic spot.">
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-
-
         }
 
         header {
-            background-color: #d14b04;
+            background-color: #111;
             color: #fff;
             padding: 10px;
             text-align: center;
-            text-decoration: dotted;
+            font-size: 1.2rem;
+        }
+
+        .hero-image {
+            background-image: url('3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 300px;
         }
 
         nav {
-
             background-color: #6d725d;
-            color: #000000;
-            padding: 5px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            padding: 10px 0;
         }
 
         nav a {
-
-            /* display:flexbox; */
-            /* align-items: center; */
-            text-align: center;
-            color: #fff;
-            text-decoration: ;
-            padding: 5px;
-            margin: 5px 5px;
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background 0.3s;
         }
 
         nav a:hover {
-            background-color: #777;
+            background-color: #555;
             cursor: pointer;
         }
 
         main {
             text-align: center;
             padding: 20px;
+            padding-bottom: 80px; /* For footer space */
         }
 
         footer {
@@ -59,44 +67,43 @@
             position: fixed;
             bottom: 0;
             width: 100%;
-
         }
 
-        .img {
-            opacity: 40%;
-            padding: ;
-            margin: 2px 2px;
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
 
-
+            .hero-image {
+                height: 200px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <!-- <img class="img" src="3.jpg" alt=""> -->
-    <header>
 
-        <h1> Dauk Barrage </h1>
+    <header>
+        <h1>Hamar Dauk Bridge</h1>
     </header>
-    <img class="img" src="3.jpg" alt="" >
-    
+
+    <div class="hero-image"></div>
+
     <nav>
-        <!-- <img class="img" src="3.jpg" alt=""> -->
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="https://www.facebook.com/profile.php?id=61555733371950">Contact</a>
-        <a
-            href="https://www.google.com/maps/dir//C92G%2BHF5+Dauk+Barrage,+Dakshin+Besarbari,+West+Bengal+733207/@26.4013964,88.3762228,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39e4f6246023c291:0x998926f072f29f00!2m2!1d88.3762228!2d26.4013964?entry=ttu">Way
-            to Daukbridge</a>
+        <a href="https://www.facebook.com/profile.php?id=61555733371950" target="_blank">Contact</a>
+        <a href="https://www.google.com/maps/dir//C92G%2BHF5+Dauk+Barrage,+Dakshin+Besarbari,+West+Bengal+733207/@26.4013964,88.3762228,15z" target="_blank">Way to Dauk Bridge</a>
     </nav>
 
     <main>
-        <h2>Welcome to Our HAMAR DAUK BRIDGE !</h2>
-        <p>C92G+HF5, Dakshin Besarbari, West Bengal 733207</p>
+        <h2>Welcome to Hamar Dauk Bridge!</h2>
+        <p><strong>Location:</strong> C92G+HF5, Dakshin Besarbari, Chopra, West Bengal 733207</p>
+        <p>This peaceful barrage is a perfect picnic spot surrounded by natural beauty. Visit us and experience the calm vibes of Chopra.</p>
     </main>
 
     <footer>
-        &copy; 2024 HAMAR DAUK . All rights reserved.
+        &copy; 2024 Hamar Dauk. All rights reserved.
     </footer>
 
 </body>
